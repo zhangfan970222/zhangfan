@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>455</width>
+    <height>290</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushbtn">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>221</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登陆</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelbtn">
+   <property name="geometry">
+    <rect>
+     <x>221</x>
+     <y>221</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="imagetext">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>:/images/spqy.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/qq.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/Cherry.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/dr.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/jj.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/lswh.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/qmnn.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/wy.png</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>:/images/ymrl.png</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择头像</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>75</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入用户名</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="nametext">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>70</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>张帆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>刘子杰</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>贾翔顺</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>喻子涵</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>贾子靖</string>
+    </property>
+   </item>
+  </widget>
+  <zorder>nametext</zorder>
+  <zorder>pushbtn</zorder>
+  <zorder>cancelbtn</zorder>
+  <zorder>imagetext</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
