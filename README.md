@@ -40,7 +40,7 @@ QT  += core gui network sql
 #include<QSqlDatabase>
 ```
 
-# 五、本文存在的缺陷（BUG）
+# 五、本文存在的缺陷
 
 ## 1.可以实现对同一个用户的重复登陆，但这不是我们想要的
 
