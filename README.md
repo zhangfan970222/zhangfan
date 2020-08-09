@@ -32,7 +32,7 @@ enum MsgType{Msg,UsrEnter,UsrLeft};
 QT  += core gui network sql
 ```
 
-在widget.h的头文件中加入头文件以及数据库初始化的函数，并且在widget.cpp的构造函数中实现初始化。每次用户进行聊天时，都会将用户名，用户聊天时间以及聊天内容传入到我们的数据库中，本项目我是放在wechat库下的record的表中。具体见widget.cpp中的**connect_mysql()**函数。
+在widget.h的头文件中加入头文件以及数据库初始化的函数，并且在widget.cpp的构造函数中实现初始化。每次用户进行聊天时，都会将用户名，用户聊天时间以及聊天内容传入到我们的数据库中，本项目我是放在wechat库下的record的表中。具体见widget.cpp中的**connect_mysql()**函数。加入数据库之后，在用户登录时会有一定的延时。
 
 ```c++
 //加入头文件
