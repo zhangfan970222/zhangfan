@@ -36,14 +36,14 @@ Login::Login(QWidget *parent) :
         }
 ***********************/
 
-        //this->close();
+        
         //弹出对话框
         Widget* widget=new Widget(nullptr,ui->nametext->currentText());  //传递给widget的名字,显示上线下线用
         //设置窗口标题，头像
         widget->setWindowTitle(ui->nametext->currentText());                    //传递给widget窗口的名字
         widget->setWindowIcon(QPixmap(ui->imagetext->currentText()));               //传递给widget窗口的头像
         widget->show();
-        //this->close();
+        this->close();
     });
 
     //点击取消
